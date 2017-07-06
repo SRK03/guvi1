@@ -8,6 +8,6 @@ Char ch=scan.nextChar();
 if(ch=='a' || ch=='A' || ch=='e' || ch=='E' ch=='i' || ch=='I' ch=='o' || ch=='O' ch=='u' || ch=='U')
 System.out.print("vowel");
 else
-System.out.print("consodant");
+System.out.print("consonant");
 }
 }
