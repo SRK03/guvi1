@@ -1,5 +1,5 @@
 import java.util.*;
-class Timecomplexity
+class Time complexity
 {
     public static void main(String args[])
     {
