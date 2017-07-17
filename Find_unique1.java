@@ -5,18 +5,18 @@ public class Find_unique1
     {
         Scanner scan=new Scanner(System.in);
         int n = scan.nextInt();
-        int ar[] = new int[n];
+        int a[] = new int[n];
         for(int i=0;i<n;i++)
         {
-            ar[i]=scan.nextInt();
+            a[i]=scan.nextInt();
         }
-        System.out.print(findSingle(ar, n));
+        System.out.print(findSingle(a, n));
     }
-    public static int findSingle(int ar[], int ar_size)
+    public static int findSingle(int a[], int size)
     {
-     int res = ar[0];
-     for (int i=1; i < ar_size; i++)
-     res = res ^ ar[i];
+     int res = a[0];
+     for (int i=1; i < size; i++)
+     res = res ^ a[i];
      return res;
     }
 }
